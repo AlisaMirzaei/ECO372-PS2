@@ -1,0 +1,11 @@
+# Intermediate datasets -- rebuilt by code/01_build.do
+data/analysis.dta
+
+# LaTeX build noise
+paper/*.aux
+paper/*.log
+paper/*.out
+
+# Stata / OS noise
+*.smcl
+.DS_Store
